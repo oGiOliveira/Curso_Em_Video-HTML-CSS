@@ -1,2 +1,2 @@
 # CursoEmVideo
- exercicios realizados durante o curso
+ aulas realizadas durante o curso
