@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(0, 0, 0);
+            margin: 0px;
+        }
+
+        header {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 12px;
+        }
+
+        nav {
+            background-color: rgb(25, 25, 26);
+            padding: 10px;
+        }
+
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin: 30px;
+        }
+
+        nav > a:hover {
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: rgb(255, 255, 255);
+            padding: 10px;
+            margin: 4px;
+        }
+
+        article {
+            background-color: rgba(255, 255, 255, 0.404);
+            padding: 5px;
+        }
+
+        article > aside {
+            background-color: rgba(87, 113, 124, 0.562);
+        }
+
+        footer {
+            background-color: rgb(25, 25, 26);
+            color: white;
+            text-align: center;
+            padding: 1px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+            <p>Esportes Política e Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Noticias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quo quibusdam doloribus soluta praesentium fugit cupiditate fuga harum quam a quia quod molestias ea deleniti, et recusandae adipisci laborum distinctio iste.</p>
+
+                <aside>
+                    <p>Artigo escrito por José Silva</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Curso em Vídeo</p>
+    </footer>
+</body>
+</html>
