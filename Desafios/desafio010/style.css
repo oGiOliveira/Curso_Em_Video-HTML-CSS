@@ -68,6 +68,7 @@ main > h1 {
 }
 
 main > h2 {
+    padding: 5px;
     color: var(--verdeEscuro);
     background: linear-gradient(to right, rgba(21, 128, 0, 0.267), white);
     text-align: left;
@@ -100,7 +101,7 @@ ul {
 }
 
 li::before {
-    content: "✔️";
+    content: "✔";
     margin-right: 10px;
     color: green;
 }
